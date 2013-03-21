@@ -25,9 +25,9 @@ set -- -f; source bootstrap.sh
 ### Git-free install
 
 To install these dotfiles without Git:
-_TODO_
+
 ```bash
-cd; curl -#L https://github.com/scottheaberlin/dotfiles/...
+cd; curl -#L https://github.com/scottheaberlin/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
 ```
 
 To update later on, just run that command again.
