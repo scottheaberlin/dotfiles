@@ -1,5 +1,5 @@
 # scottheaberlin’s dotfiles
-_shamelessly cloned from [mathiasbynens](https://github.com/mathiasbynens/dotfiles)_
+_shamelessly forked from [mathiasbynens](https://github.com/mathiasbynens/dotfiles)_
 ## Installation
 
 ### Using Git and the bootstrap script
@@ -22,7 +22,7 @@ Alternatively, to update while avoiding the confirmation prompt:
 set -- -f; source bootstrap.sh
 ```
 
-### Git-free install
+### Git-free install, take 1
 
 To install these dotfiles without Git:
 
@@ -31,6 +31,22 @@ cd; curl -#L https://github.com/scottheaberlin/dotfiles/tarball/master | tar -xz
 ```
 
 To update later on, just run that command again.
+
+### Git-free install, take 2 (Z)
+
+To install theze dotfiles without using Git:
+
+```bash
+wget https://github.com/scottheaberlin/dotfiles/tarball/master
+mv master scottheaberlin-dotfiles.tgz
+tar -zxf scottheaberlin-dotfiles.tgz
+cd scottheaberlin-dotfiles<tab>
+source bootstrap.sh
+```
+
+ignore git errors from the pull
+
+TODO: rsync to multiple servers...
 
 ### Specify the `$PATH`
 
