@@ -37,17 +37,17 @@ set number
 " Enable syntax highlighting
 syntax on
 " Highlight current line
-if has("syntax")
-	set cursorline
-endif
+"if has("syntax")
+"	set cursorline
+"endif
 
 " Make tabs as wide as two spaces
 set tabstop=2
 " Show “invisible” characters
 " no worky on zlinux - piggyback on if has(syntax)
-if has("syntax")
-	set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-endif
+"if has("syntax")
+"	set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+"endif
 
 set list
 " Highlight searches
