@@ -71,7 +71,9 @@ set shortmess=atI
 " Show the current mode
 set showmode
 " Show the filename in the window titlebar
-set title
+" set title
+" prevent Thanks for Flying Vim title when exiting
+" set titleold=""
 " Show the (partial) command as it’s being typed
 set showcmd
 " uncomment to Use relative line numbers
