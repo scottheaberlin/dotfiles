@@ -37,7 +37,10 @@ set number
 " Enable syntax highlighting
 syntax on
 " Highlight current line
-set cursorline
+if has("syntax")
+	set cursorline
+endif
+
 " Make tabs as wide as two spaces
 set tabstop=2
 " Show “invisible” characters
