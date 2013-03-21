@@ -1,5 +1,5 @@
 # scottheaberlin’s dotfiles
-_shamelessly cloned from [scottheaberlin](https://github.com/scottheaberlin/dotfiles)_
+_shamelessly cloned from [mathiasbynens](https://github.com/mathiasbynens/dotfiles)_
 ## Installation
 
 ### Using Git and the bootstrap script
