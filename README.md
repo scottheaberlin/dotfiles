@@ -73,3 +73,5 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 
 * [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) for sharing his dotfiles and readme
 * more
+
+...
