@@ -1,6 +1,6 @@
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
+colorscheme elflord
 let g:solarized_termtrans=1
 
 " Make Vim more useful
